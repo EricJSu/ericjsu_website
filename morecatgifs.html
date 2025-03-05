@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eric Su</title>
+    <title>More Cat GIFs</title>
     <style>
         /* Navigation Bar Styling */
         nav {
@@ -24,26 +24,36 @@
             background-color: #555;  /* Darker background on hover */
         }
 
-        /* Make the image responsive */
-        img {
+        /* Center content */
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Make images responsive */
+        .gif-container img {
             width: 100%;   /* Ensures the image fills its container */
             height: auto;  /* Maintains the aspect ratio */
             max-width: 600px; /* Limits the image size on larger screens */
+            margin: 10px 0;
         }
     </style>
 </head>
 <body>
+
     <!-- Navigation Bar -->
     <nav>
         <a href="index.html">Home</a>
-        <a href="morecatgifs.html">More Cat Gifs</a>
+        <a href="morecatgifs.html">More Cat GIFs</a>
         <a href="blank.html">404 Error</a>
     </nav>
 
-    <h1>Welcome to My Website</h1>
-    <p>This is a basic webpage hosted on GitHub Pages.</p>
+    <h1>More Cat GIFs!</h1>
 
-    <!-- Adding a cat GIF -->
-    <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="A cute cat" />
+    <div class="gif-container">
+        <img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" alt="Cat looking at computer screen">
+        <img src="https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif" alt="Cat working hard on a laptop">
+    </div>
+
 </body>
 </html>
